@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-size: 1em; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    background: #e6e6e6; 
+    
+}  
+            /* Formatando a area do cabecalho */
+#area-cabecalho{
+    background: #f7b600; 
+    text-align: center; 
+    padding: 20px; 
+} 
+
+#area-logo {
+   font-size: 20px;  
+   margin: 20px;
+} 
+#cor{
+    color: #e6e6e6;
+}
+                /* Formatando os links*/
+a{
+    text-decoration: none; 
+    color: #f7b600; 
+    font-weight: bold;
+}
+#area-menu a:link, #area-menu a:visited {
+    color: white; 
+    padding: 8px 10px; 
+} 
+#area-menu a:hover {
+    color: #f7b600; 
+    background: white; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+#area-lateral a:link, #area-lateral a:visited {
+    color: #f7b600; 
+    padding: 15px;
+} 
+ a:hover {
+    color: #f7b600;
+    text-decoration: underline;
+}
+                /* Formatando os conteudos */ 
+#area-trabalho {
+    background: #CCC;
+    width: 920px; 
+    margin: 0px auto; 
+    padding: 15px;
+} 
+ 
+.postagem {
+    width: 640px;
+    float: left;  
+    background: white; 
+    padding: 15px; 
+}  
+#area-lateral {
+    float: right; 
+    width: 240px; 
+    background: white;
+} 
+p{
+    margin: 10px; 
+    text-align: justify; 
+    background: white;
+} 
+h2{
+    color: #f7b600;
+}
+h3 {
+    background: gray;
+    padding: 10px;
+} 
+.categoria {
+    margin-top: 50px; 
+    margin-bottom: 20px;
+    
+} 
+.categoria a{
+    text-align: center  ;
+}
+footer {
+    clear: both;
+    padding: 20px; 
+    background: rgb(161, 157, 157); 
+    text-align: center;
+}
+
+#postagem-recente{
+    margin-bottom: 40px;
+}
+img {
+    padding: 10px;
+
+}
